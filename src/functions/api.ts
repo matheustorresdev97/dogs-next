@@ -57,7 +57,7 @@ export function PHOTO_GET(id: string) {
   };
 }
 
-export function COMMENT_POST(id, body) {
+export function COMMENT_POST(id: string) {
   return {
     url: `${API_URL}/api/comment/${id}`,
     options: {
@@ -71,7 +71,7 @@ export function COMMENT_POST(id, body) {
   };
 }
 
-export function PHOTO_DELETE(id) {
+export function PHOTO_DELETE(id: string) {
   return {
     url: `${API_URL}/api/photo/${id}`,
     options: {
@@ -83,7 +83,7 @@ export function PHOTO_DELETE(id) {
   };
 }
 
-export function PASSWORD_FORGOT() {
+export function PASSWORD_LOST() {
   return {
     url: API_URL + '/api/password/lost',
   };
