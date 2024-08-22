@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from './header.module.css';
 
-export default async function Header() {
+export async function Header() {
   const user = false;
   return (
     <header className={styles.header}>
