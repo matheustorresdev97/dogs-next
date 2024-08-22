@@ -42,7 +42,7 @@ export default function LoginForm() {
         <ErrorMessage error={state.error} />
         <FormButton />
       </form>
-      <Link className={styles.perdeu} href="/login/perdeu">
+      <Link className={styles.perdeu} href="/login/esqueci">
         Perdeu a senha?
       </Link>
       <div className={styles.cadastro}>

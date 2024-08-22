@@ -83,7 +83,7 @@ export function PHOTO_DELETE(id) {
   };
 }
 
-export function PASSWORD_LOST() {
+export function PASSWORD_FORGOT() {
   return {
     url: API_URL + '/api/password/lost',
   };
