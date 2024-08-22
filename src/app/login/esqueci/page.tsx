@@ -1,9 +1,9 @@
-import LoginEsqueciForm from '@/components/login/login-esqueci-form';
-import { Metadata } from 'next';
+import LoginEsqueciForm from "@/components/login/login-esqueci-form";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Perdeu a senha | Dogs',
-  description: 'Recupere a sua senha',
+  title: "Perdeu a senha | Dogs",
+  description: "Recupere a sua senha",
 };
 
 export default async function EsqueciPage() {
